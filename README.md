@@ -17,10 +17,10 @@ The goal is to separate **build-time dependencies** (like Maven & JDK) from the 
 
 ---
 multi-stage-docker-demo/
-├── Dockerfile # Multi-stage Docker build
-├── Dockerfile.single # Single-stage Docker build
-├── pom.xml # Maven build configuration
-└── src/main/java/com/example/HelloApp.java
+- Dockerfile # Multi-stage Docker build
+- Dockerfile.single # Single-stage Docker build
+- pom.xml # Maven build configuration
+- src/main/java/com/example/HelloApp.java
 
 ---
 
