@@ -37,6 +37,20 @@ docker build -t hello-multi-stage -f Dockerfile .
 
 ---
 
+---
+2️⃣ Build with Single-Stage Dockerfile
+```bash
+docker build -t hello-single -f Dockerfile.single
+```
+---
+
+
+
+---
+3️⃣ Run the Container
+```bash
+docker run --rm -p 8080:8080 hello-multi-stage
+```
 
 
 
